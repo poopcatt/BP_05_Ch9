@@ -80,7 +80,7 @@ def Ode_to_the_stars(color,length,x,y):                          #Ode_to_the_sta
     t.down()
     t.color(z)
     for i in range(5):                                           #별은 5개의 변 (5번 반복)
-        f.forward(length)                                        #후술할 랜덤값의 길이만큼 전진
+        t.forward(length)                                        #후술할 랜덤값의 길이만큼 전진
         t.left(144)
     t.end_fill()
     
