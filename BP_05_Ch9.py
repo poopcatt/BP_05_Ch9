@@ -87,6 +87,6 @@ def Ode_to_the_stars(color,length,x,y):                          #Ode_to_the_sta
 for z in color:
     x=random.randint(-300,300)
     y=random.randint(-300,300)                                   #x좌표와 y좌표를 (-300,300) 내에서 무작위로 설정
-    length=random(10,50)                                         #길이는 10 이상 50 이하로 랜덤하게 설정
+    length=random.randint(10,50)                                         #길이는 10 이상 50 이하로 랜덤하게 설정
     Ode_to_the_stars(color,length,x,y)                           #노래좋다
 t.screen.exitonclick()
